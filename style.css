@@ -104,8 +104,11 @@ background-color: rgb(240, 244, 166);
 
 
 .box-img{
-    height: 198px;
+    height: 200px;
+    width: 100%;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat:
     margin-top: 1rem;
     margin-right: 1rem;
     border: 1px solid lightsalmon;
@@ -305,3 +308,4 @@ margin-top: 0.2cm;
     padding: 10px;
   }
 }
+
