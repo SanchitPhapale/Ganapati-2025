@@ -239,34 +239,69 @@ margin-top: 0.2cm;
 
 }
 
-/* ---- MOBILE RESPONSIVE FIX ---- */
-@media screen and (max-width: 600px) {
+/* ================= MOBILE RESPONSIVE FIX ================= */
+@media (max-width: 768px) {
 
-    /* Table ko full width karo */
-    .items-table {
-        width: 100%;
-        font-size: 14px;
-    }
+  /* NAVBAR FIX */
+  .navbar {
+    padding: 0 10px;     /* 700px hata ke mobile padding */
+    height: auto;
+    flex-direction: column;
+  }
 
-    .items-table th, 
-    .items-table td {
-        padding: 6px;
-    }
+  .nav-logo {
+    margin-bottom: 10px;
+  }
 
-    /* Navbar / header images center me */
-    .top-ganpati-images img {
-        width: 90%;
-        display: block;
-        margin: 10px auto;
-    }
+  /* ADDRESS TEXT */
+  .nav-address {
+    font-size: 22px;
+    padding: 5px;
+  }
 
-    /* Center align all headings */
-    h1, h2, h3 {
-        text-align: center;
-    }
+  /* SHOP SECTION */
+  .shop-section {
+    padding: 10px;
+  }
 
-    /* Body padding thoda kam */
-    body {
-        padding: 5px;
-    }
+  /* BOX FIX (Amazon style) */
+  .box {
+    width: 90%;          /* Full width card */
+    height: auto;
+    margin: 15px auto;   /* Center align */
+    display: block;      /* inline-block hata */
+    padding: 15px;
+  }
+
+  /* IMAGE RESPONSIVE */
+  .box-img {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    margin: 0;
+  }
+
+  /* TEXT CENTER */
+  .box-content {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  /* TABLE MOBILE */
+  .items-table-container {
+    width: 100%;
+    padding: 5px;
+    overflow-x: auto;
+  }
+
+  .items-table {
+    font-size: 14px;
+  }
+
+  /* FOOTER */
+  .foot-panel {
+    text-align: center;
+    height: auto;
+    padding: 10px;
+  }
 }
