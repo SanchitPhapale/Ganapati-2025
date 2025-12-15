@@ -104,8 +104,10 @@ background-color: rgb(240, 244, 166);
 
 
 .box-img{
-    height: 200px;
+    aspect-ratio: 1/1;
     width: 100%;
+    height: auto;
+    display: block;
     background-image: url("Image/image1.jpg");
     background-size: cover;
     background-position: center;
@@ -281,6 +283,7 @@ margin-top: 0.2cm;
   .box-img {
     width: 100%;
     height: auto;
+      aspect-ratio: 4/5;
     background-size: contain;
     margin: 0;
   }
@@ -309,5 +312,6 @@ margin-top: 0.2cm;
     padding: 10px;
   }
 }
+
 
 
