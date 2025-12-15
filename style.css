@@ -106,6 +106,7 @@ background-color: rgb(240, 244, 166);
 .box-img{
     height: 200px;
     width: 100%;
+    background-image: url("Image/image1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat:
@@ -308,4 +309,5 @@ margin-top: 0.2cm;
     padding: 10px;
   }
 }
+
 
